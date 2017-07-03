@@ -1,4 +1,4 @@
-FROM kratan/bwvisu:bwvisu-centos7-hl-nvidia-cuda-docker
+FROM kratan/bwvisu-nvidiacuda:centos7
 
 #Setup Xpra
 RUN rpm --import https://winswitch.org/gpg.asc \
